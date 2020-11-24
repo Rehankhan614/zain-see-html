@@ -1,0 +1,108 @@
+div{
+    box-sizing: border-box;
+}
+h1, h2,p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Poppins
+}
+.top-bar{
+    background: linear-gradient(180deg, rgb(195,151,56), rgb(138,120,8)) !important;
+    padding: 10px 33px;
+}
+.top-bar-right{
+    display: flex;
+}
+.top-bar-right p{
+    padding: 5px 20px;
+    color: white;
+    font-size: 13px;
+}
+.top-bar-left{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-bar-left p{
+    padding: 5px 20px;
+    color: white;
+    font-size: 13px;
+}
+.top-bar-left p:nth-child(1){
+    border-right: 1px solid white;
+}
+.banner{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/slider-8.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-main{
+    max-width: 1173px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0 0 64px 64px;
+    padding: 16px 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+}
+.main-nav{
+    width: 75%;
+}
+.logo-desktop{
+    width: auto;
+    margin: auto;
+}
+/* .nav-menu-1{
+    margin-left: auto;
+} */
+.nav-mrg{
+    margin-top: 19px;
+}
+.main-nav-items a{
+    color: #121212 !important;
+    font-size: 12.5px;
+    font-weight: 500;
+    display: block;
+}
+.nav-menu-1{
+    position: relative;
+}
+.main-nav-items a:hover::before{
+    content: url("images/Path\ 1.png");
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    margin: auto;
+}
+.main-nav-items a:hover{
+    border-bottom: 3px solid #BE9637;
+    padding-bottom: 10px !important;
+}
+.contact-left-bkg a{
+    position: absolute;
+    background-color: #C39738;
+    padding: 6px 71px 6px 22px !important;
+    right: -203px;
+    border-radius: 17px 0 0 17px;
+    color: white !important;
+}
+.Search{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.blank-space{
+    width: 10%;
+}
+.search-content{
+    width: 80%;
+}
+.search-social-icon{
+    width: 10%;
+}
